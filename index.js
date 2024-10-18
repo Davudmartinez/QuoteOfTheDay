@@ -45,6 +45,7 @@ class RenderUI {
         </div>
         `;
     
+        //chỉ thay thế nội dung của quote và author 
         document.querySelector("#quote").textContent = quote;
         document.querySelector("#author").textContent = author;
   }
