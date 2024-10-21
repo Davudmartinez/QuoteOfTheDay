@@ -83,6 +83,15 @@ body {
   display: flex;
   justify-content: center;
 }
+#newQuote,
+#Link {
+  transition: 0.3s ease-in-out;
+}
+
+#newQuote:hover,
+#Link:hover {
+  transform: translateY(-3px);
+}
 .baby_button {
   background-color: rgb(23, 124, 229);
   color: #fff;
