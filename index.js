@@ -58,3 +58,5 @@ document.querySelector("#newQuote").addEventListener("click", async (event) => {
 });
 
 //Còn sự kiện bấm vào nút Facebook
+//chưa README
+//chưa Deloy lêm
