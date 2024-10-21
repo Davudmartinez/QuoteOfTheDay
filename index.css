@@ -1,99 +1,98 @@
 /* Reset CSS */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.6%;
+  font-size: 62.6%;
 }
 body {
-    font-size: 1.6rem;
-    /* font */
-    font-family: "Playfair Display", serif;
-    /* background color */
-    background-color: #bbc6fa;
+  font-size: 1.6rem;
+  /* font */
+  font-family: "Playfair Display", serif;
+  /* background color */
+  background-color: #bbc6fa;
 }
 /*--------------------BUILD CODE----------------------*/
 /* quote-box */
-.quote-box{
-    background-color: #fff;
-    width: 70rem;
-    border-radius: 1rem;
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    padding: 4rem;
-    text-align: center;
-    box-shadow: 0px 10px 2px 0px(0, 0, 0, 0.15);
+.quote-box {
+  background-color: #fff;
+  width: 70rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4rem;
+  text-align: center;
+  /* box-shadow: 0px 10px 2px 0px (0, 0, 0, 0.15); */
+  box-shadow: 5px 4px 5px black;
 }
 /* h2-title */
 /* bố của phần tử ảo */
-.h2_title{
-    font-size: 4rem;
-    margin-bottom: 4rem;
-    position: relative;
+.h2_title {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
 }
 /* phần tử ảo */
-.h2_title::after{
-    content: '';
-    width: 7rem;
-    height: 0.5rem;
-    background-color: rgb(23, 124, 229);
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translateX(-50%);
+.h2_title::after {
+  content: "";
+  width: 7rem;
+  height: 0.5rem;
+  background-color: rgb(23, 124, 229);
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* blockquote_content */
-.blockquote_content{
-    font-size: 2rem;
-    min-height: 11rem;
+.blockquote_content {
+  font-size: 2rem;
+  min-height: 11rem;
 }
-.blockquote_content::before{
-    content: '"';
+.blockquote_content::before {
+  content: '"';
 }
-.blockquote_content::after{
-    content: '"'
+.blockquote_content::after {
+  content: '"';
 }
 /* span_author */
 /* bố của phần tử ảo */
-.span_author{
-    display: block;
-    margin-top: 1rem;
-    float: right;
-    position: relative;
+.span_author {
+  display: block;
+  margin-top: 1rem;
+  float: right;
+  position: relative;
 }
 /* phần tử ảo */
-.span_author::before{
-    content: '';
-    width: 2rem;
-    height: 0.2rem;
-    background-color: rgb(23, 124, 229);
-    position: absolute;
-    top: 50%;
-    left: -30%;
+.span_author::before {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  background-color: rgb(23, 124, 229);
+  position: absolute;
+  top: 50%;
+  left: -30%;
 }
 /* class của button */
-.father_button{
-    width: 100%;
-    margin-top: 10rem;
-    display: flex;
-    justify-content: center;
+.father_button {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
 }
-.baby_button{
-    background-color: rgb(23, 124, 229);
-    color: #fff;
-    border-radius: 2.5rem;
-    border: 1px solid rgb(23, 124, 229);
-    width: 15rem;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5rem;
-    cursor: pointer;
+.baby_button {
+  background-color: rgb(23, 124, 229);
+  color: #fff;
+  border-radius: 2.5rem;
+  border: 1px solid rgb(23, 124, 229);
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  cursor: pointer;
 }
-
-
