@@ -83,9 +83,13 @@ body {
   display: flex;
   justify-content: center;
 }
-#newQuote,
+
+#Quote {
+  transition: 0.3s ease-in-out;
+}
 #Link {
   transition: 0.3s ease-in-out;
+  background-color: black;
 }
 
 #newQuote:hover,
@@ -105,4 +109,5 @@ body {
   margin: 0.5rem;
   cursor: pointer;
 }
+
 /* vừa fix button  */

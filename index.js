@@ -50,9 +50,12 @@ class RenderUI {
 
 //hàm khởi tạo câu đạo lí của mình
 const tweet = () => {
+  const quote = document.querySelector("#quote").textContent;
+  const author = document.querySelector("#author").textContent;
+
   window.open(
-    'href="https://twitter.com/intent/tweet?text=Hello%20world"',
-    "X Window",
+    `https://twitter.com/intent/tweet?text=${quote} - ${author}`,
+    "Tweet Window",
     "width=600, height=300"
   );
 };
