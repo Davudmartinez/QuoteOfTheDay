@@ -47,6 +47,15 @@ class RenderUI {
     document.querySelector("#author").textContent = author;
   }
 }
+
+//hàm khởi tạo câu đạo lí của mình
+const tweet = () => {
+  window.open(
+    'href="https://twitter.com/intent/tweet?text=Hello%20world"',
+    "X Window",
+    "width=600, height=300"
+  );
+};
 //------------------------------------------MAIN EVENT---------------------------------------------------
 document.querySelector("#newQuote").addEventListener("click", async (event) => {
   //tạo instance của Store và RenderUI
