@@ -93,7 +93,7 @@ document.querySelector("#Link").addEventListener("click", async (event) => {
   if (quoteData) {
     ui.renderTweet(JSON.parse(quoteData));
   } else {
-    alert("Bấm New Quote rồi mới coi tao đạo lí được ");
+    alert("Bấm New Quote rồi mới coi duoc cau đạo lí được ");
   }
 });
 //chưa README
